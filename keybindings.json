@@ -1,0 +1,182 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "alt+cmd+1",
+    "command": "workbench.action.editorLayoutSingle"
+  },
+  {
+    "key": "alt+cmd+3",
+    "command": "workbench.action.editorLayoutThreeColumns"
+  },
+  {
+    "key": "alt+cmd+2",
+    "command": "workbench.action.editorLayoutTwoColumns"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "cmd+k cmd+l",
+    "command": "workbench.action.terminal.focus",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+k cmd+l",
+    "command": "workbench.action.terminal.focus",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "cmd+k cmd+l",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+cmd+k shift+cmd+l",
+    "command": "workbench.action.terminal.focus",
+    "when": "inDebugRepl"
+  },
+  {
+    "key": "shift+cmd+k shift+cmd+l",
+    "command": "workbench.debug.action.focusRepl",
+    "when": "inDebugMode && terminalFocus"
+  },
+  {
+    "key": "cmd+k cmd+l",
+    "command": "workbench.debug.action.focusRepl",
+    "when": "inDebugMode && editorTextFocus"
+  },
+  {
+    "key": "cmd+k cmd+l",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "inDebugRepl"
+  },
+  {
+    "key": "cmd+k cmd+l",
+    "command": "workbench.action.terminal.focus",
+    "when": "activeEditorGroupEmpty"
+  },
+  {
+    "key": "ctrl+t ctrl+f",
+    "command": "railsTestRunner.runAllTestsInFile"
+  },
+  {
+    "key": "ctrl+t ctrl+a",
+    "command": "railsTestRunner.runAllTests"
+  },
+  {
+    "key": "ctrl+t ctrl+r",
+    "command": "railsTestRunner.runLastFailedTests"
+  },
+  {
+    "key": "ctrl+t ctrl+t",
+    "command": "railsTestRunner.runLastTests"
+  },
+  {
+    "key": "ctrl+t ctrl+t",
+    "command": "railsTestRunner.runLastTests",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+t ctrl+l",
+    "command": "railsTestRunner.runTestAtLine"
+  },
+  {
+    "key": "shift+cmd+y shift+cmd+y",
+    "command": "workbench.debug.action.toggleRepl"
+  },
+  {
+    "key": "shift+cmd+y shift+cmd+y",
+    "command": "-workbench.debug.action.toggleRepl"
+  },
+  {
+    "key": "shift+cmd+y",
+    "command": "extension.goToSpec",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+y",
+    "command": "-extension.goToSpec",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+l",
+    "command": "expandLineSelection",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+i",
+    "command": "-expandLineSelection",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+=",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "cmd+=",
+    "command": "editor.action.fontZoomIn"
+  },
+  {
+    "key": "cmd+-",
+    "command": "editor.action.fontZoomOut"
+  },
+  {
+    "key": "cmd+[IntlBackslash]",
+    "command": "editor.action.fontZoomReset"
+  },
+  {
+    "key": "ctrl+t ctrl+y",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "cmd+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "!editorTextFocus"
+  },
+  {
+    "key": "cmd+shift+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+k cmd+n",
+    "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "cmd+k cmd+p",
+    "command": "workbench.action.terminal.focusPrevious"
+  },
+  {
+    "key": "cmd+k cmd+x",
+    "command": "workbench.action.terminal.kill"
+  },
+  {
+    "key": "ctrl+j ctrl+f",
+    "command": "extension.runJestFile"
+  },
+  {
+    "key": "ctrl+j ctrl+d",
+    "command": "extension.debugJest"
+  },
+  {
+    "key": "ctrl+j ctrl+t",
+    "command": "extension.runJest"
+  },
+  {
+    "key": "ctrl+j ctrl+c",
+    "command": "extension.runJestFileWithCoverage"
+  },
+  {
+    "key": "ctrl+j ctrl+j",
+    "command": "extension.runPrevJest"
+  },
+  {
+    "key": "cmd+k cmd+o",
+    "command": "workbench.action.focusLastEditorGroup"
+  },
+  {
+    "key": "f5 delete",
+    "command": "workbench.action.debug.disconnect"
+  }
+]
