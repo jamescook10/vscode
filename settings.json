@@ -15,9 +15,9 @@
   "docker.containers.sortBy": "Label",
   "editor.cursorBlinking": "smooth",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "FiraCode-Retina",
+  "editor.fontFamily": "OperatorMonoLig-Book, FiraCode-Retina",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
@@ -55,18 +55,24 @@
   "gitlens.views.repositories.location": "gitlens",
   "gitlens.views.search.location": "gitlens",
   "indentRainbow.colors": [
-    "rgba(224,108,117,0.1)",
-    "rgba(86,182,194,0.1)",
-    "rgba(97,175,239,0.1)",
-    "rgba(152,195,121,0.1)",
-    "rgba(229,192,123,0.1)"
+    "rgba(73,233,166,0.1)",
+    "rgba(22,182,115,0.1)",
+    "rgba(91,133,139,0.1)",
+    "rgba(80,123,149,0.1)",
+    "rgba(113,108,147,0.1)",
+    "rgba(127,101,154,0.1)",
+    "rgba(22,163,182,0.1)",
+    "rgba(73,214,233,0.1)",
   ],
   "bracket-pair-colorizer-2.colors": [
-    "rgba(224,108,117,1)",
-    "rgba(86,182,194,1)",
-    "rgba(97,175,239,1)",
-    "rgba(152,195,121,1)",
-    "rgba(229,192,123,1)"
+    "rgba(73,233,166,1)",
+    "rgba(22,182,115,1)",
+    "rgba(91,133,139,1)",
+    "rgba(80,123,149,1)",
+    "rgba(113,108,147,1)",
+    "rgba(127,101,154,1)",
+    "rgba(22,163,182,1)",
+    "rgba(73,214,233,1)",
   ],
   "javascript.updateImportsOnFileMove.enabled": "prompt",
   "launch": {
@@ -91,7 +97,6 @@
   "terminal.integrated.shell.osx": "/bin/zsh",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "Plastic",
   "workbench.editor.closeEmptyGroups": true,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.showTabs": true,
@@ -99,5 +104,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.panel.defaultLocation": "bottom",
   "prettier.requireConfig": true,
-  "prettier.useEditorConfig": false
+  "prettier.useEditorConfig": false,
+  "workbench.colorTheme": "Noctis Azureus"
 }
